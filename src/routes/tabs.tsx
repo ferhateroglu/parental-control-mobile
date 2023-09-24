@@ -40,10 +40,10 @@ export default function TabsRouter() {
         }}
       />
       <Tabs.Screen
-        name="messages"
+        name="account"
         options={{
           headerShown: false,
-          title: "Messages",
+          title: "Account",
           tabBarIcon: ({ color, size }) => (
             <MaterialCommunityIcons
               name="account-outline"

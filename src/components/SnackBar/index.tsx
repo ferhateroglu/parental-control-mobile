@@ -14,6 +14,7 @@ const Snackbar = ({ message, setMessage, duration }: Props) => {
 
   useEffect(() => {
     if (message) {
+      console.log(message);
       setIsVisible(true);
     }
   }, [message]);
